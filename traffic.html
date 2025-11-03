@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulasi lampu lalu lintas</title>
+    <link rel="stylesheet" href="css/traffic.css">
+</head>
+<body style="display: flex;justify-content: center;background-color: whitesmoke;">
+    <div class="container">
+        <h2 style="font-size: 35px;font-family:Arial, sans-serif;">Simulasi lampu lalu lintas</h2>
+
+        <div class="lampu-traffic">
+        <div class="lampu merah" id="lampu-merah"></div>
+        <div class="lampu kuning" id="lampu-kuning"></div>
+        <div class="lampu hijau" id="lampu-hijau"></div>
+        </div>
+
+        <div class="control">
+            <button class="tombol" id="mulai">Mulai otomatis</button>
+            <button class="tombol" id="berhenti">Berhenti</button>
+        </div>
+
+        <div class="kontrol-manual">
+            <button class="tombol manual" id="btn-merah">Merah</button>
+            <button class="tombol manual" id="btn-kuning">Kuning</button>
+            <button class="tombol manual" id="btn-hijau">Hijau</button>
+        </div>
+        <p id="status">Status : Mati</p>
+
+    </div>
+    <script src="traffic.js"></script>
+    
+</body>
+</html>

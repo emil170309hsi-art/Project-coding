@@ -1,0 +1,53 @@
+body{
+    font-family:Arial, sans-serif ;
+    background: #fff;
+    display: block;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+    
+}
+.kalkulator{
+    width: 300px;
+    padding: 20px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border: 1px solid rgb(116, 114, 114);
+    margin-top: 40px;
+   
+}
+.tampilan{
+    width: 95%;
+    border: 1px solid rgba(0, 0, 0, 0.452);
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+    
+
+td{
+
+.tombol{
+    width: 55px;
+    padding: 10px;
+    margin: 7px;
+    border-radius: 7px;
+    border: 1px solid rgb(168, 165, 163);
+    cursor: pointer
+    
+}
+.operator{
+    background: rgb(218, 217, 217);
+}
+.sama-dengan{
+    background: orangered;
+    border-color: orangered;
+}
+.reset{
+    background: silver;
+    border-color: silver;
+}
+}
+

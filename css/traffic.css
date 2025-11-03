@@ -1,0 +1,68 @@
+.container{
+    text-align: center;
+    background: rgb(255, 255, 255);
+    padding: 2em;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+    width: 500px;
+    height: 650px;
+}
+.lampu-traffic{
+    background: #333;
+    width: 120px;
+    margin: 0 auto 2em ;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+}
+.lampu{
+    width: 80px;
+    height: 80px;
+    margin: 15px auto;
+    border-radius: 50%;
+    opacity: 0.3;
+    transition: opacity 0.3s ease , box-shadow 0.3s ease;
+}
+.lampu.merah{
+    background: red;
+}
+.lampu.kuning{
+    background: yellow;
+}
+.lampu.hijau{
+    background: lime;
+}
+.lampu.nyala{
+    opacity: 1;
+    box-shadow: 0 0 30px currentColor;
+    animation: berkedip 0.5s ease-in-out;
+}
+@keyframes berkedip {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+
+    }    
+
+.kontrol, .kontrol-manual{
+    margin: 1em 0;
+
+}
+.tombol{
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: skyblue;
+    border: 1px;
+    border-radius: 5px;
+    transition: box-shadow 0.3s ease,opacity 0.3 ease;
+    opacity: 0.9;
+} 
+.tombol.manual{
+    background-color: rgb(102, 100, 100);
+    border: 1px;
+    border-radius: 5px;
+}  
+.tombol:hover{
+    box-shadow: 2px 3px 10px grey;
+    opacity: 1;
+    
+} 
